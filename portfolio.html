@@ -1,3 +1,5 @@
+<!--with more time i would have fixed sizing and spacing for all of the elements. i would have fixed the space between the content and the footer. i would have made the footer a sticky footer. I would have added the labels for all the portfolio projects and fixed the spacing so that they lined up like those in the example image i was given. I would have made my code cleaner and easier to read by formatting and eliminating redundant code or code that doesn't belong.-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -5,9 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-	
-	<section id="full" id="header">
+<body class="box-set">
+	<link rel="stylesheet" href="fixed.css">
+	<section id="full">
 		<header>Dante Zamora</header>
 		<a class="container" id="headerlinks" href="./index.html">About</a>
 		<a class="container" id="border" id="headerlinks" href="./portfolio.html">Portfolio</a>
@@ -17,14 +19,24 @@
 	<section id="contentarea">
 		<section id="aboutme">
 			<h1>Portfolio</h1>
-			
+			<div id="portfolioitems">
+				<div class="portfoliopics"><a href="#" target="_blank"><img src="assets\images\hangman.jpg" target="_blank" id="portfoliopics" height="200" width="300"></a></div>
+				<div class="portfoliopics"><a href="#" target="_blank"><img src="assets\images\rpg game.jpg" target="_blank" id="portfoliopics" height="200" width="300"></a></div>
+				<br>
+				<div class="portfoliopics"><a href="#" target="_blank"><img src="assets\images\trivia game.jpg" target="_blank" id="portfoliopics" height="200" width="300"></a></div>
+				<div class="portfoliopics"><a href="#" target="_blank"><img src="assets\images\rutgers info widget.jpg" target="_blank" id="portfoliopics" height="200" width="300"></a></div>
+				<br>
+				<div class="portfoliopics"><a href="#" target="_blank"><img src="assets\images\rock paper scissors.jpg" target="_blank" id="portfoliopics" height="200" width="300"></a></div>
+			</div>			
 		</section>
 
 		<section id="connect">
 			<h2>Connect with Me</h2>
-			<div class="container"><a href="https://github.com/DZamora54" target="_blank"><img src="assets\images\github.png" target="_blank"></a></div>
-			<div class="container"><a href="https://www.linkedin.com/in/dante-zamora-033242139/" target="_blank"><img src="assets\images\linkedin.png" target="_blank"></a></div>
-			<div class="container"><a href="http://stackoverflow.com/u/8087303" target="_blank"><img src="assets\images\stackoverflow.png"></a></div>
+			<div class="connecticons">
+				<div class="container"><a href="https://github.com/DZamora54" target="_blank"><img src="assets\images\github.png" target="_blank"></a></div>
+				<div class="container"><a href="https://www.linkedin.com/in/dante-zamora-033242139/" target="_blank"><img src="assets\images\linkedin.png" target="_blank"></a></div>
+				<div class="container"><a href="http://stackoverflow.com/u/8087303" target="_blank"><img src="assets\images\stackoverflow.png"></a></div>
+			</div>
 		</section>
 	
 	</section>
